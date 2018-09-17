@@ -60,6 +60,11 @@ export default class SignModal extends Component {
                   </a>
                 </li>
                 <li>
+                  <a href={`${original_api_domain}/oauth/wechat-pc`} styleName="wechat">
+                  <span styleName="qq-icon">使用 微信 登录</span>
+                  </a>
+                </li>
+                <li>
                   <a href={`${original_api_domain}/oauth/github`} styleName="github">
                     <span styleName="github-icon">使用 GitHub 登录</span>
                   </a>
